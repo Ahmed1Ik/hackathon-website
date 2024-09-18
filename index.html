@@ -1,0 +1,274 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./Css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header id="home" class="header">
+    <div class="container">
+      <nav class="navv flex items-center justify-between">
+        <div class="left flex items-center">
+          <div class="nav1">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#pages">Pages</a>
+            <a href="google.com">Blog</a>
+          </div>
+        </div>
+        <div class="right">
+          <a href="mailto:ismail.qdn@gmail.com?subject=Feedback&amp;body=Message"><button
+              class="btn btn-primary">Contact</button></a>
+        </div>
+      </nav>
+      <div class="hero flex items-center justify-between">
+        <div class="right flex-1 justify-center">
+          <h3 class="span loader">
+            <span class="m">T</span>
+            <span class="m">E</span>
+            <span class="m">A</span>
+            <span class="m">M</span>
+            <span class="m">&nbsp;</span>
+            <span class="m">K</span>
+            <span class="m">C</span>
+            <span class="m">3RD</span>
+            <span class="m">S</span>
+            <span class="m">E</span>
+            <span class="m">M</span>
+          </h3>
+          <div class="parallax">
+            <h1> Welcome to<span>Our Website</span></h1>
+            <p>We are Team KC.</p>
+            <div><button class="btn btn-secondary">Download CV</button></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="about" class="about">
+    <div class="container flex items-center about-inner-wrap">
+      <div class="flex-1">
+        <img class="about-me-img" src="https://the7eagles.com/wp-content/uploads/2022/02/web-development-image-01.png
+                " alt="">
+      </div>
+    </div>
+    <div class="flex-1 right">
+      <h1>About <span>me</span></h1>
+      <h3>Hello!</h3>
+      <p>Through Our work, We strive to create seamless and engaging user
+        interfaces that not only captivate visitors but also enhance their
+        overall browsing experience.We are proficient in HTML, CSS, and JavaScript,
+        and constantly stay up-to-date with the latest industry trends and best
+        practices to ensure the highest level of quality in my projects.</p>
+
+      <div class="social1">
+        <a href="https://www.instagram.com/ahmad_ismail_000/ " target="_blank"><img
+            src="https://cdn1.iconfinder.com/data/icons/2019-social-media/512/social_media-04-64.png" alt=""></a>
+        <a href="https://www.facebook.com/Ahmed.ismail.202"><img id="fb"
+            src="https://cdn1.iconfinder.com/data/icons/unicons-line-vol-3/24/facebook-64.png" alt=""></a>
+        <a href="https://github.com/Ahmed1Ik"><img id="github"
+            src="https://cdn4.iconfinder.com/data/icons/miu-square-gloss-social/60/github-square-gloss-social-media-48.png"
+            alt=""></a>
+        <a href="https://twitter.com/logic78760745"><img id="twitter"
+            src="https://cdn2.iconfinder.com/data/icons/social-media-applications/64/social_media_applications_6-twitter-48.png"
+            alt=""></a>
+      </div>
+    </div>
+    </div>
+    <div class="area">
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </section>
+  <section>
+    <div class="converter">
+      <h1 class="temp">Temperature Converter</h1>
+      <p class="temp">Enter the temperature, select units and submit</p>
+      <input type="number" id="temperature" placeholder="0.00">
+      <select id="fromUnit">
+        <option value="Celsius" selected>Celsius</option>
+        <option value="Fahrenheit">Fahrenheit</option>
+        <option value="Kelvin">Kelvin</option>
+      </select>
+      <select id="toUnit">
+        <option value="Fahrenheit" selected>Fahrenheit</option>
+        <option value="Celsius">Celsius</option>
+        <option value="Kelvin">Kelvin</option>
+      </select>
+      <button id="convertBtn" onclick="convertTemperature()">Convert</button>
+      <p id="result"></p>
+    </div>
+
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <h1 class="section-heading"><span>Our</span> Services</h1>
+      <p>We provide tools useful for daily works</p>
+
+      <div class="card-wrapper">
+
+        <div class="card">
+          <img id="img1"
+            src="https://img.freepik.com/premium-vector/programming-language-program-code-screen-laptop-programming-coding-php-html_435184-705.jpg?w=2000">
+          <h2>Graphic design</h2>
+          <p>From eye-catching logos to stunning illustrations, each project
+            is meticulously crafted to captivate and engage, breathing life into
+            brands and stories with a harmonious blend of aesthetics and functionality.</p>
+        </div>
+        <div class="card">
+          <img id="img2"
+            src="https://img.freepik.com/premium-vector/programming-language-program-code-screen-laptop-programming-coding-php-html_435184-705.jpg?w=2000"
+            alt="">
+          <h2>Web development</h2>
+          <p>We are experts in turning your ideas into fully functional and dynamic websites. With our technical
+            expertise and innovative solutions, we bring your online vision to life</p>
+        </div>
+        <div class="card">
+          <img id="img3"
+            src="https://freedesignfile.com/upload/2016/02/Tech-with-gear-background-template-vector-04.jpg" alt="">
+          <h2>Web design</h2>
+          <p>We specialize in crafting captivating websites that combine sleek aesthetics with seamless functionality.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="pages" class="freelancer">
+    <h1>KC team - available for freelancing</h1>
+    <a href="https://www.freelancer.com/u/Amedaile" target="_blank"><button class="btn btn-primary">Hire
+        now</button></a>
+    <section id="contact" class="contact">
+      <div>
+        <div class="row-container">
+          <h1 class="touchme">Get in touch!</h1>
+          <div class="contact-container">
+            <form role="form" id="contact-form">
+              <label for="name">Name or email</label>
+              <input autocomplete="off" type="text" name="name" id="name" required aria-required="true"
+                autocorrect="off">
+              <label for="message">Message</label>
+              <textarea type="text" name="contenido" id="message" required autocorrect="off"></textarea>
+              <button class="button btn-send" id="sendBtn">
+                <svg id="sendMessage" xmlns="http://www.w3.org/2000/svg" class="send-message" viewBox="0 0 32.8 22">
+                  <style type="text/css">
+                    .st60 {
+                      fill: none;
+                      stroke: #FFF;
+                      stroke-width: 2;
+                      stroke-miterlimit: 10;
+                    }
+                  </style>
+                  <polyline class="st60" points="31.4 7.3 16.4 13.7 1.4 7.3 " />
+                  <rect x="1" y="1" fill="none" class="st60" width="30" height="20" rx="2" ry="2" />
+                </svg>
+                <input id="submitBtn" type="submit" value="Send">
+              </button>
+              <svg id="mailbox" viewBox="0 0 68 69.4">
+                <style type="text/css">
+                  .st0 {
+                    fill: #193849;
+                  }
+
+                  .st2 {
+                    fill: #052733;
+                  }
+                </style>
+                <path class="st0"
+                  d="M19.6 21.2h32.1c0 0 15.1-1.5 16.3 13.5v24.3H29.9V34.7C29.9 34.7 30 21.2 19.6 21.2z" />
+                <line fill="none" stroke="#11425C" stroke-width="5" stroke-miterlimit="10" x1="43.2" y1="58" x2="43.2"
+                  y2="69.1" />
+                <path class="st2"
+                  d="M31.5 36.7c0-8.6-3.1-15.7-12.2-15.7 -4.5 0-10.3 4.7-10.3 12.5v22.4l22.4 3.2V36.7z" />
+                <path class="st0" d="M31.5 59l-7.3 10.4c0 0-7.7 0.2-24.2-0.2L9.1 56 31.5 59z" />
+                <g class="flag">
+                  <line class="st60" x1="38.5" y1="30" x2="38.5" y2="3.2" />
+                  <polygon fill="#E62326" points="47.6 6 37.5 6 37.5 0 47.6 0 45.6 3 " />
+                  <circle class="st2" cx="38.5" cy="29.1" r="2.8" />
+                </g>
+              </svg>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="myfoot">
+      <footer>
+        <div class="social2">
+          <p>Follow me on social media</p>
+          <ul class="wrapper">
+            <a href="https://in.linkedin.com/" target="_blank">
+              <li class="icon linkedin">
+                <span class="tooltip">LinkedIn</span>
+                <span><i class="fab fa-linkedin"></i></span>
+              </li>
+            </a>
+            <a href="https://github.com/Ahmed1Ik" target="_blank">
+              <li class="icon github">
+                <span class="tooltip">GitHub</span>
+                <span><i class="fab fa-github"></i></span>
+              </li>
+            </a>
+            <a href="https://codepen.io/Ahmed_ismail_000" target="_blank">
+              <li class="icon facebook">
+                <span class="tooltip">Facebook</span>
+                <span><i class="fab fa-facebook-f"></i></span>
+              </li>
+            </a>
+            <a href="https://www.instagram.com/ahmed_ismail_888/" target="_blank">
+              <li class="icon instagram">
+                <span class="tooltip">Instagram</span>
+                <span><i class="fab fa-instagram"></i></span>
+              </li>
+            </a>
+            <a href="https://twitter.com/logic78760745" target="_blank">
+              <li class="icon twitter">
+                <span class="tooltip">Twitter</span>
+                <span><i class="fab fa-twitter"></i></span>
+              </li>
+            </a>
+            <a href="https://codepen.io/Ahmed_ismail_000" target="_blank">
+              <li class="icon github">
+                <span class="tooltip">CodePen</span>
+                <span><i class="fab fa-codepen"></i></span>
+              </li>
+            </a>
+          </ul>
+        </div>
+        <div class="final_text"></div>
+        <p>Copyright &copy; All rights reserved
+          <br>Designed by Ahmed Ismail, 2023
+        </p>
+      </footer>
+    </section>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./JavaScript/script.js"></script>
+</body>
+
+</html>
